@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         val name = edtName.text.toString()
         val year = edtYear.text.toString().toInt()
         val person = Person(name, year, currenYear - year)
+
         launchShowActivity(person)
     }
 

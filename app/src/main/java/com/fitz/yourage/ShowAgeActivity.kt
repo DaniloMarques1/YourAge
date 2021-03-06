@@ -16,5 +16,8 @@ class ShowAgeActivity : AppCompatActivity() {
         person?.let {
             txtShowAge.text = getString(R.string.show_age, it.name, it.age)
         }
+        txtShowAge.setOnClickListener {
+            finish()
+        }
     }
 }
