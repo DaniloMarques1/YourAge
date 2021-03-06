@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YourAge</string>
+    <string name="main_title">Quantos anos você tem?</string>
+    <string name="main_btn_label">Calcular</string>
+    <string name="main_hint_name">Informe seu nome</string>
+    <string name="main_hint_year">Informe o ano de seu nascimento</string>
+    <string name="show_age">%s, voce possui %d anos</string>
+</resources>
